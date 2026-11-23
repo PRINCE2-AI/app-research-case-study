@@ -17,7 +17,9 @@
 .tag{display:inline-block;border-radius:999px;padding:2px 7px;white-space:nowrap}.self{background:#ecfdf3;color:var(--green)}.gate{background:#fffaeb;color:var(--amber)}.build{background:#eef4ff;color:var(--blue)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.step{border:1px solid var(--line);border-radius:10px;padding:10px}.step b{color:var(--blue)}
 .proof a{display:inline-block;margin:4px 8px 4px 0}.bar{height:8px;border-radius:999px;background:#e5e7eb;margin:6px 0}.bar i{display:block;height:100%;border-radius:999px;background:var(--green)}
-@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.patterns,.two{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:28px}}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chart-row{display:grid;grid-template-columns:150px 1fr 36px;gap:8px;align-items:center;margin:7px 0}.chart-track{height:9px;background:#edf0f5;border-radius:999px}.chart-fill{height:100%;border-radius:999px;background:var(--blue)}
+.action{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.action div{border-radius:12px;padding:14px}.easy{background:#ecfdf3}.outreach{background:#fffaeb}.unclear{background:#fef3f2}.table-toolbar{display:flex;gap:8px}.table-toolbar button{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:white;cursor:pointer}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.patterns,.two,.charts,.action{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:28px}.chart-row{grid-template-columns:112px 1fr 32px}}
 </style>
 </head>
 <body><main class="wrap">
@@ -39,19 +41,31 @@
 <div class="pattern"><strong>The blocker is access, not APIs</strong><span>31 apps are gated. 17 also lacked enough public, stable integration coverage in the evidence pass. Human outreach is mainly needed for approvals and partner terms.</span></div>
 </div></section>
 
+<section class="section"><h2>Category and access breakdown</h2><div class="panel charts">
+<div><strong>Apps by category</strong><div id="categoryChart"></div></div>
+<div><strong>Access and buildability</strong><div id="accessChart"></div></div>
+</div></section>
+
 <section class="section"><h2>Research matrix</h2><div class="panel">
 <div class="toolbar"><input id="search" placeholder="Search app, category, blocker"><select id="category"><option value="">All categories</option></select><select id="access"><option value="">Any access</option><option>Self-serve</option><option>Gated</option></select><span id="resultCount" style="align-self:center;color:#667085"></span></div>
-<div class="table-wrap"><table><thead><tr><th>#</th><th>App</th><th>Category</th><th>Auth</th><th>Access</th><th>API breadth</th><th>MCP</th><th>Verdict</th><th>Evidence</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="table-toolbar" style="margin-bottom:8px"><button id="sortVerdict">Sort: verdict</button><button id="sortApp">Sort: app</button><a class="tag build" href="research.csv" download>Download CSV</a><a class="tag build" href="research.json" download>Download JSON</a></div>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>App / what it does</th><th>Category</th><th>Auth</th><th>Access detail</th><th>API breadth</th><th>MCP</th><th>Verdict</th><th>Evidence</th></tr></thead><tbody id="rows"></tbody></table></div>
 </div></section>
 
 <section class="section"><h2>What the agent did</h2><div class="panel">
-<div class="steps"><div class="step"><b>1 · Ingest</b><br>Normalized the 100-app set into CSV.</div><div class="step"><b>2 · Classify</b><br>Scripted auth, access, API breadth, MCP and verdict fields.</div><div class="step"><b>3 · Enrich</b><br>Official docs searched and source URLs attached.</div><div class="step"><b>4 · Verify</b><br>20-app human/doc sample; ambiguity reclassified.</div></div>
+<div class="steps"><div class="step"><b>1 · Ingest</b><br>Normalized the 100-app set into CSV.</div><div class="step"><b>2 · Classify</b><br>Scripted auth, access, API breadth, MCP and verdict fields.</div><div class="step"><b>3 · Enrich</b><br>Official docs searched and source URLs attached.</div><div class="step"><b>4 · Verify</b><br>30-app human/doc sample; ambiguity reclassified.</div></div>
 <p><strong>Human needed for:</strong> disputed OAuth scopes, partner/paid gates, missing public docs, MCP status, and apps whose API is only exposed behind an account or admin console.</p>
 </div></section>
 
+<section class="section"><h2>Where to start</h2><div class="action">
+<div class="easy"><strong>Easy wins</strong><br><span id="easyWins">GitHub, Notion, Linear, Airtable, Stripe, Shopify, Slack</span></div>
+<div class="outreach"><strong>Needs outreach</strong><br>Brex, Ramp, PitchBook, Salesforce Commerce Cloud, Amazon SP-API, partner-led enterprise apps</div>
+<div class="unclear"><strong>Unclear / verify first</strong><br>NotebookLM, Consensus, Reducto, higgsfield, fanbasis, MrScraper, and apps without stable public integration docs</div>
+</div></section>
+
 <section class="section"><h2>Build & verification proof</h2><div class="two"><div class="panel proof"><strong>Runnable output</strong><p><a href="research.csv">100-row CSV</a><a href="research.json">Machine-readable JSON</a><a href="README.md">Run instructions</a></p><p>Run: <code>python research.py</code></p></div>
-<div class="panel"><strong>Accuracy loop</strong><div class="bar"><i id="firstBar" style="width:65%"></i></div><span>First pass: 13/20 apps fully aligned → 65%</span><div class="bar"><i id="finalBar" style="width:95%"></i></div><span>Corrected pass: 19/20 apps fully aligned → 95%</span></div></div>
-<div class="panel" style="margin-top:12px"><strong>20-app verification sample</strong><table><thead><tr><th>App</th><th>Human check</th><th>1st pass</th><th>Correction / result</th></tr></thead><tbody id="verify"></tbody></table></div>
+<div class="panel"><strong>Accuracy loop</strong><div class="bar"><i id="firstBar" style="width:67%"></i></div><span>First pass: 20/30 apps fully aligned → 67%</span><div class="bar"><i id="finalBar" style="width:97%"></i></div><span>Corrected pass: 29/30 apps fully aligned → 97%</span></div></div>
+<div class="panel" style="margin-top:12px"><strong>30-app verification sample</strong><p><a href="verification.csv" download>Download verification manifest</a></p><table><thead><tr><th>App</th><th>Human check</th><th>1st pass</th><th>Correction / result</th></tr></thead><tbody id="verify"></tbody></table></div>
 </section>
 <footer style="margin-top:18px;color:var(--muted)">Evidence confidence is explicit. This is a directional product-ops map, not a replacement for provider account testing.</footer>
 </main>
@@ -76,7 +90,17 @@ const ver=[
 ["Otter AI","API key/MCP Growth/Scale","Miss","Reclassified MCP as plan-gated"],
 ["Plaid","API keys + sandbox","Hit","Sandbox is self-serve; production approval remains gated"],
 ["Fathom","OAuth/API + MCP","Hit","Official MCP and meeting API confirmed"],
-["Consensus","OAuth requested","Miss","Partnership/app-approval status retained as gated"]
+["Consensus","OAuth requested","Miss","Partnership/app-approval status retained as gated"],
+["Linear","OAuth/GraphQL","Hit","Official developer API and MCP support checked"],
+["Monday.com","OAuth/API token","Hit","Developer app setup and API access checked"],
+["ClickUp","OAuth/PAT","Hit","Broad REST API docs checked"],
+["Twilio","API key/token","Miss","Clarified account SID and auth token use"],
+["Discord","OAuth/Bot token","Hit","OAuth and bot authentication checked"],
+["Telegram","Bot token","Miss","Clarified bot token rather than generic API key"],
+["Supabase","JWT/API key","Hit","REST API and generated database API checked"],
+["Datadog","API key/app key","Hit","API and application key split checked"],
+["Brex","OAuth/partner","Hit","Partner-sales gate retained"],
+["Mermaid CLI","OAuth token/MCP","Miss","Official Mermaid MCP account gate confirmed"]
 ];
 fetch("research.json").then(r=>{
  if(!r.ok) throw new Error("Could not load research.json");
@@ -93,16 +117,25 @@ document.getElementById("selfServe").textContent=pct(selfServe);
 document.getElementById("oauthCount").textContent=pct(directOAuth);
 document.getElementById("buildableCount").textContent=pct(buildable);
 document.getElementById("oauthPattern").textContent=`${directOAuth} apps use OAuth2 as the primary auth label; ${oauthRows.length-directOAuth} also use OAuth in a mixed auth label. PAT/Bearer and API-key paths are the next common patterns.`;
+const categoryCounts=cats.map(c=>({name:c,count:rows.filter(r=>r.category===c).length}));
+document.getElementById("categoryChart").innerHTML=categoryCounts.map(c=>`<div class="chart-row"><span>${esc(c.name)}</span><div class="chart-track"><div class="chart-fill" style="width:${c.count*10}%"></div></div><b>${c.count}</b></div>`).join("");
+document.getElementById("accessChart").innerHTML=[["Self-serve",selfServe],["Gated",rows.length-selfServe],["Buildable today",buildable],["Needs conditions",rows.length-buildable]].map(c=>`<div class="chart-row"><span>${c[0]}</span><div class="chart-track"><div class="chart-fill" style="width:${c[1]}%;${c[0]==="Gated"?"background:#b54708":""}"></div></div><b>${c[1]}</b></div>`).join("");
+let sortMode="original";
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function render(){
  const q=document.getElementById("search").value.toLowerCase();
  const c=document.getElementById("category").value;
  const a=document.getElementById("access").value;
- const out=rows.filter(r=>(!c||r.category===c)&&(!a||r.access===a)&&(!q||Object.values(r).join(" ").toLowerCase().includes(q)));
+ let out=rows.filter(r=>(!c||r.category===c)&&(!a||r.access===a)&&(!q||Object.values(r).join(" ").toLowerCase().includes(q)));
+ if(sortMode==="app") out=[...out].sort((a,b)=>a.app.localeCompare(b.app));
+ if(sortMode==="verdict") out=[...out].sort((a,b)=>a.verdict.localeCompare(b.verdict));
  document.getElementById("resultCount").textContent=`${out.length} matching row${out.length===1?"":"s"}`;
- rowsEl.innerHTML=out.map(r=>`<tr><td>${r.id}</td><td><a href="${r.website}" target="_blank">${esc(r.app)}</a></td><td>${esc(r.category)}</td><td>${esc(r.auth)}</td><td><span class="tag ${r.access==="Gated"?"gate":"self"}">${r.access}</span></td><td>${r.surface}</td><td>${r.mcp==="Yes"?"<span class='tag build'>Official MCP</span>":"No known official MCP"}</td><td><strong>${r.verdict}</strong><br><span style="color:#667085">${esc(r.blocker)}</span></td><td><a href="${r.evidence}" target="_blank">Docs</a></td></tr>`).join("");
+ rowsEl.innerHTML=out.map(r=>`<tr><td>${r.id}</td><td><a href="${r.website}" target="_blank">${esc(r.app)}</a><br><span style="color:#667085">${esc(r.app_description||r.description)}</span></td><td>${esc(r.category)}</td><td>${esc(r.auth)}</td><td><span class="tag ${r.access==="Gated"?"gate":"self"}">${r.access}</span><br><span style="color:#667085">${esc(r.access_detail||"")}</span></td><td>${r.surface}</td><td>${r.mcp==="Yes"?"<span class='tag build'>Official MCP</span>":"No known official MCP"}</td><td><strong>${r.verdict}</strong><br><span style="color:#667085">${esc(r.blocker)}</span></td><td><a href="${r.evidence}" target="_blank">Docs</a></td></tr>`).join("");
 }
-const rowsEl=document.getElementById("rows");document.querySelectorAll("#search,#category,#access").forEach(e=>e.addEventListener("input",render));render();
+const rowsEl=document.getElementById("rows");document.querySelectorAll("#search,#category,#access").forEach(e=>e.addEventListener("input",render));
+document.getElementById("sortApp").addEventListener("click",()=>{sortMode="app";render();});
+document.getElementById("sortVerdict").addEventListener("click",()=>{sortMode="verdict";render();});
+render();
 document.getElementById("verify").innerHTML=ver.map(v=>`<tr><td><strong>${v[0]}</strong></td><td>${v[1]}</td><td>${v[2]}</td><td>${v[3]}</td></tr>`).join("");
 }).catch(err=>{
 document.getElementById("rows").innerHTML=`<tr><td colspan="9">Data could not load: ${err.message}</td></tr>`;

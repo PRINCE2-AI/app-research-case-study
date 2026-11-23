@@ -1,0 +1,31 @@
+app,fields_checked,first_pass,result,source
+Notion,auth+surface+access,Hit,Aligned,https://developers.notion.com/reference/intro
+Stripe,auth+surface+access,Miss,Corrected Basic/Bearer transport,https://docs.stripe.com/api/authentication
+Shopify,auth+access,Hit,Aligned,https://shopify.dev/docs/apps/build/authentication-authorization
+GitHub,auth+MCP,Hit,Aligned,https://docs.github.com/en/rest/authentication
+HubSpot,auth+surface,Hit,Aligned,https://developers.hubspot.com/docs/api-reference/latest/overview.md
+Slack,auth+MCP,Miss,Added OAuth/MCP detail,https://api.slack.com/authentication
+Airtable,auth+access,Miss,Deprecated API-key label corrected,https://airtable.com/developers/web/api/authentication
+Asana,auth+access,Hit,Aligned,https://developers.asana.com/docs/authentication
+Jira,auth+access,Miss,Added Cloud/admin dependency,https://developer.atlassian.com/cloud/jira/rest/v3/intro/
+Zoho CRM,auth+access,Hit,Aligned,https://www.zoho.com/crm/developer/docs/api/v6/
+WooCommerce,auth+surface,Hit,Aligned,https://woocommerce.com/document/woocommerce-rest-api/
+Magento Adobe Commerce,auth+access,Hit,Aligned,https://developer.adobe.com/commerce/webapi/get-started/authentication/
+Amazon SP-API,auth+gate,Hit,Partner approval retained,https://developer-docs.amazon.com/sp-api/
+DataForSEO,auth+access,Miss,Basic credentials corrected,https://docs.dataforseo.com/v3/
+Apify,auth+MCP,Hit,Aligned,https://docs.apify.com/mcp
+Firecrawl,auth+access,Hit,Aligned,https://docs.firecrawl.dev/
+Otter AI,access+MCP,Miss,Plan-gated MCP corrected,https://otter.diy/docs/mcp
+Plaid,auth+gate,Hit,Sandbox/production distinction retained,https://plaid.com/docs/quickstart/
+Fathom,auth+MCP,Hit,Aligned,https://developers.fathom.ai/mcp-docs
+Consensus,access+API,Miss,Request/approval gate retained,https://consensus.app
+Linear,auth+MCP+access,Hit,Aligned,https://developers.linear.app/docs/graphql/working-with-the-graphql-api
+Monday.com,auth+access,Hit,Aligned,https://developer.monday.com/api-reference/docs
+ClickUp,auth+surface,Hit,Aligned,https://developer.clickup.com/
+Twilio,auth+MCP,Miss,Expanded API-key/token classification,https://www.twilio.com/docs/iam
+Discord,auth+surface,Hit,Aligned,https://discord.com/developers/docs/topics/oauth2
+Telegram,auth+surface,Miss,Bot token classification corrected,https://core.telegram.org/bots/api
+Supabase,auth+surface+MCP,Hit,Aligned,https://supabase.com/docs/guides/api
+Datadog,auth+surface+MCP,Hit,Aligned,https://docs.datadoghq.com/api/latest/
+Brex,access+partner gate,Hit,Sales/partner gate retained,https://developer.brex.com/
+Mermaid CLI,MCP+auth+access,Miss,Official Mermaid account MCP confirmed,https://mermaid.ai/docs/ai/mcp-server
