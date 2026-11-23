@@ -63,8 +63,8 @@
 <div class="unclear"><strong>Unclear / verify first</strong><br>NotebookLM, Consensus, Reducto, higgsfield, fanbasis, MrScraper, and apps without stable public integration docs</div>
 </div></section>
 
-<section class="section"><h2>Build & verification proof</h2><div class="two"><div class="panel proof"><strong>Runnable output</strong><p><a href="research.csv">100-row CSV</a><a href="research.json">Machine-readable JSON</a><a href="README.md">Run instructions</a></p><p>Run: <code>python research.py</code></p></div>
-<div class="panel"><strong>Accuracy loop</strong><div class="bar"><i id="firstBar" style="width:67%"></i></div><span>First pass: 20/30 apps fully aligned → 67%</span><div class="bar"><i id="finalBar" style="width:97%"></i></div><span>Corrected pass: 29/30 apps fully aligned → 97%</span></div></div>
+<section class="section"><h2>Build & verification proof</h2><div class="two"><div class="panel proof"><strong>Runnable output</strong><p><a href="research.csv">100-row CSV</a><a href="research.json">Machine-readable JSON</a><a href="verification.csv">30-app verification CSV</a><a href="agent_run.json">SDK run proof</a><a href="audit.json">Audit report</a><a href="README.md">Run instructions</a></p><p>Run: <code>python agent_run.py</code> · <code>python research.py</code> · <code>python audit.py</code></p></div>
+<div class="panel"><strong>Accuracy loop</strong><div class="bar"><i id="firstBar" style="width:67%"></i></div><span>First pass: 20/30 apps fully aligned → 67%</span><div class="bar"><i id="finalBar" style="width:97%"></i></div><span>Corrected pass: 29/30 apps fully aligned → 97%</span><p id="agentProof" style="margin-top:10px;color:#667085"></p></div></div>
 <div class="panel" style="margin-top:12px"><strong>30-app verification sample</strong><p><a href="verification.csv" download>Download verification manifest</a></p><table><thead><tr><th>App</th><th>Human check</th><th>1st pass</th><th>Correction / result</th></tr></thead><tbody id="verify"></tbody></table></div>
 </section>
 <footer style="margin-top:18px;color:var(--muted)">Evidence confidence is explicit. This is a directional product-ops map, not a replacement for provider account testing.</footer>
@@ -102,7 +102,7 @@ const ver=[
 ["Brex","OAuth/partner","Hit","Partner-sales gate retained"],
 ["Mermaid CLI","OAuth token/MCP","Miss","Official Mermaid MCP account gate confirmed"]
 ];
-fetch("research.json?build=5319a78").then(r=>{
+fetch("research.json?build=final-sdk").then(r=>{
  if(!r.ok) throw new Error("Could not load research.json");
  return r.json();
 }).then(rows=>{
@@ -140,5 +140,8 @@ document.getElementById("verify").innerHTML=ver.map(v=>`<tr><td><strong>${v[0]}<
 }).catch(err=>{
 document.getElementById("rows").innerHTML=`<tr><td colspan="9">Data could not load: ${err.message}</td></tr>`;
 });
+fetch("agent_run.json").then(r=>r.ok?r.json():null).then(agent=>{
+ if(agent) document.getElementById("agentProof").textContent=`Composio SDK v${agent.composio_version||"unknown"}: ${agent.status}; live tool calls: ${agent.live_tool_calls||0}.`;
+}).catch(()=>{});
 </script>
 </body></html>

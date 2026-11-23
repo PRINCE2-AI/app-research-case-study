@@ -32,6 +32,23 @@ The pipeline is designed for agent-assisted execution: app discovery and classif
 4. The HTML consumes `research.json` and provides search, filters, sorting, charts, and downloads.
 5. Paid-account or partner-gated findings are reported as findings, not research failures.
 
+## Optional Composio SDK agent proof
+
+The repository includes `agent_run.py`. It loads the real Composio Python SDK and records whether live agent/MCP execution is available.
+
+```bash
+python -m pip install -r requirements.txt
+python agent_run.py
+python research.py
+python -m http.server 8080
+```
+
+Set `COMPOSIO_API_KEY` to enable live Composio session/tool discovery. With no key, the script exits explicitly with `skipped_no_api_key`; it does not pretend to have made a live tool call.
+
+## Verification
+
+Run `python audit.py` to validate row counts, required fields, evidence URLs, unique app names, and first/corrected verification counts. The audit is deterministic and suitable for CI.
+
 ## Verification
 
 The page reports a 30-app documentation spot-check and distinguishes the first pass from the corrected pass. It also explicitly labels categories and app records where public evidence was missing or an approval/paid-plan gate is the main finding. The full check list is available in `verification.csv`.

@@ -14,7 +14,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+    "access_evidence": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+    "api_evidence": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 2,
@@ -31,7 +36,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
-    "confidence": "High"
+    "auth_evidence": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
+    "access_evidence": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
+    "api_evidence": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 3,
@@ -48,7 +58,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.pipedrive.com/docs/api/v1",
-    "confidence": "High"
+    "auth_evidence": "https://developers.pipedrive.com/docs/api/v1",
+    "access_evidence": "https://developers.pipedrive.com/docs/api/v1",
+    "api_evidence": "https://developers.pipedrive.com/docs/api/v1",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 4,
@@ -65,7 +80,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.attio.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.attio.com/",
+    "access_evidence": "https://developers.attio.com/",
+    "api_evidence": "https://developers.attio.com/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 5,
@@ -82,7 +102,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://twenty.com/developers",
-    "confidence": "Medium"
+    "auth_evidence": "https://twenty.com/developers",
+    "access_evidence": "https://twenty.com/developers",
+    "api_evidence": "https://twenty.com/developers",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 6,
@@ -99,7 +124,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.podio.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.podio.com/",
+    "access_evidence": "https://developers.podio.com/",
+    "api_evidence": "https://developers.podio.com/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 7,
@@ -116,7 +146,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
-    "confidence": "High"
+    "auth_evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
+    "access_evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
+    "api_evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 8,
@@ -133,7 +168,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://help.close.com/docs/developer-api",
-    "confidence": "High"
+    "auth_evidence": "https://help.close.com/docs/developer-api",
+    "access_evidence": "https://help.close.com/docs/developer-api",
+    "api_evidence": "https://help.close.com/docs/developer-api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 9,
@@ -150,7 +190,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.copper.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.copper.com/",
+    "access_evidence": "https://developer.copper.com/",
+    "api_evidence": "https://developer.copper.com/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 10,
@@ -167,7 +212,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://api.docs.dealcloud.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://api.docs.dealcloud.com",
+    "access_evidence": "https://api.docs.dealcloud.com",
+    "api_evidence": "https://api.docs.dealcloud.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 11,
@@ -184,7 +234,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.zendesk.com/api-reference/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.zendesk.com/api-reference/",
+    "access_evidence": "https://developer.zendesk.com/api-reference/",
+    "api_evidence": "https://developer.zendesk.com/api-reference/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 12,
@@ -201,7 +256,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
+    "access_evidence": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
+    "api_evidence": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 13,
@@ -218,7 +278,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.freshdesk.com/api/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.freshdesk.com/api/",
+    "access_evidence": "https://developers.freshdesk.com/api/",
+    "api_evidence": "https://developers.freshdesk.com/api/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 14,
@@ -235,7 +300,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://dev.frontapp.com/",
-    "confidence": "Medium"
+    "auth_evidence": "https://dev.frontapp.com/",
+    "access_evidence": "https://dev.frontapp.com/",
+    "api_evidence": "https://dev.frontapp.com/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 15,
@@ -252,7 +322,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://www.usepylon.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://www.usepylon.com",
+    "access_evidence": "https://www.usepylon.com",
+    "api_evidence": "https://www.usepylon.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 16,
@@ -269,7 +344,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://helpdesk.com/api",
-    "confidence": "Medium"
+    "auth_evidence": "https://helpdesk.com/api",
+    "access_evidence": "https://helpdesk.com/api",
+    "api_evidence": "https://helpdesk.com/api",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 17,
@@ -286,7 +366,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://plain.com/docs",
-    "confidence": "Medium"
+    "auth_evidence": "https://plain.com/docs",
+    "access_evidence": "https://plain.com/docs",
+    "api_evidence": "https://plain.com/docs",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 18,
@@ -303,7 +388,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.helpscout.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.helpscout.com/",
+    "access_evidence": "https://developer.helpscout.com/",
+    "api_evidence": "https://developer.helpscout.com/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 19,
@@ -320,7 +410,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developers.gorgias.com/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developers.gorgias.com/",
+    "access_evidence": "https://developers.gorgias.com/",
+    "api_evidence": "https://developers.gorgias.com/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 20,
@@ -337,7 +432,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.gladly.com/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.gladly.com/",
+    "access_evidence": "https://developer.gladly.com/",
+    "api_evidence": "https://developer.gladly.com/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 21,
@@ -354,7 +454,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://api.slack.com/authentication",
-    "confidence": "High"
+    "auth_evidence": "https://api.slack.com/authentication",
+    "access_evidence": "https://api.slack.com/authentication",
+    "api_evidence": "https://api.slack.com/authentication",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 22,
@@ -371,7 +476,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://www.twilio.com/docs/iam",
-    "confidence": "High"
+    "auth_evidence": "https://www.twilio.com/docs/iam",
+    "access_evidence": "https://www.twilio.com/docs/iam",
+    "api_evidence": "https://www.twilio.com/docs/iam",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 23,
@@ -388,7 +498,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://www.zoho.com/cliq/help/restapi/",
-    "confidence": "High"
+    "auth_evidence": "https://www.zoho.com/cliq/help/restapi/",
+    "access_evidence": "https://www.zoho.com/cliq/help/restapi/",
+    "api_evidence": "https://www.zoho.com/cliq/help/restapi/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 24,
@@ -405,7 +520,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://open.larksuite.com/document/",
-    "confidence": "High"
+    "auth_evidence": "https://open.larksuite.com/document/",
+    "access_evidence": "https://open.larksuite.com/document/",
+    "api_evidence": "https://open.larksuite.com/document/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 25,
@@ -422,7 +542,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://pumble.com/help",
-    "confidence": "Medium"
+    "auth_evidence": "https://pumble.com/help",
+    "access_evidence": "https://pumble.com/help",
+    "api_evidence": "https://pumble.com/help",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 26,
@@ -439,7 +564,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://discord.com/developers/docs/topics/oauth2",
-    "confidence": "High"
+    "auth_evidence": "https://discord.com/developers/docs/topics/oauth2",
+    "access_evidence": "https://discord.com/developers/docs/topics/oauth2",
+    "api_evidence": "https://discord.com/developers/docs/topics/oauth2",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 27,
@@ -456,7 +586,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://core.telegram.org/bots/api",
-    "confidence": "High"
+    "auth_evidence": "https://core.telegram.org/bots/api",
+    "access_evidence": "https://core.telegram.org/bots/api",
+    "api_evidence": "https://core.telegram.org/bots/api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 28,
@@ -473,7 +608,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
-    "confidence": "High"
+    "auth_evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "access_evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "api_evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 29,
@@ -490,7 +630,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.aircall.io/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.aircall.io/",
+    "access_evidence": "https://developer.aircall.io/",
+    "api_evidence": "https://developer.aircall.io/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 30,
@@ -507,7 +652,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.vonage.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.vonage.com/",
+    "access_evidence": "https://developer.vonage.com/",
+    "api_evidence": "https://developer.vonage.com/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 31,
@@ -524,7 +674,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developers.google.com/google-ads/api/docs/start",
-    "confidence": "Medium"
+    "auth_evidence": "https://developers.google.com/google-ads/api/docs/start",
+    "access_evidence": "https://developers.google.com/google-ads/api/docs/start",
+    "api_evidence": "https://developers.google.com/google-ads/api/docs/start",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 32,
@@ -541,7 +696,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developers.facebook.com/docs/marketing-apis",
-    "confidence": "Medium"
+    "auth_evidence": "https://developers.facebook.com/docs/marketing-apis",
+    "access_evidence": "https://developers.facebook.com/docs/marketing-apis",
+    "api_evidence": "https://developers.facebook.com/docs/marketing-apis",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 33,
@@ -558,7 +718,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
-    "confidence": "Medium"
+    "auth_evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "access_evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "api_evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 34,
@@ -575,7 +740,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://highlevel.stoplight.io/",
-    "confidence": "High"
+    "auth_evidence": "https://highlevel.stoplight.io/",
+    "access_evidence": "https://highlevel.stoplight.io/",
+    "api_evidence": "https://highlevel.stoplight.io/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 35,
@@ -592,7 +762,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://mailchimp.com/developer/marketing/api/",
-    "confidence": "High"
+    "auth_evidence": "https://mailchimp.com/developer/marketing/api/",
+    "access_evidence": "https://mailchimp.com/developer/marketing/api/",
+    "api_evidence": "https://mailchimp.com/developer/marketing/api/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 36,
@@ -609,7 +784,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.klaviyo.com/en/reference/api_overview",
-    "confidence": "High"
+    "auth_evidence": "https://developers.klaviyo.com/en/reference/api_overview",
+    "access_evidence": "https://developers.klaviyo.com/en/reference/api_overview",
+    "api_evidence": "https://developers.klaviyo.com/en/reference/api_overview",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 37,
@@ -626,7 +806,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://systeme.io",
-    "confidence": "High"
+    "auth_evidence": "https://systeme.io",
+    "access_evidence": "https://systeme.io",
+    "api_evidence": "https://systeme.io",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 38,
@@ -643,7 +828,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.pinterest.com/docs/api/v5/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.pinterest.com/docs/api/v5/",
+    "access_evidence": "https://developers.pinterest.com/docs/api/v5/",
+    "api_evidence": "https://developers.pinterest.com/docs/api/v5/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 39,
@@ -660,7 +850,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.facebook.com/docs/threads",
-    "confidence": "High"
+    "auth_evidence": "https://developers.facebook.com/docs/threads",
+    "access_evidence": "https://developers.facebook.com/docs/threads",
+    "api_evidence": "https://developers.facebook.com/docs/threads",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 40,
@@ -677,7 +872,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
-    "confidence": "High"
+    "auth_evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
+    "access_evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
+    "api_evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 41,
@@ -694,7 +894,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://shopify.dev/docs/apps/build/authentication-authorization",
-    "confidence": "High"
+    "auth_evidence": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "access_evidence": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "api_evidence": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 42,
@@ -711,7 +916,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://woocommerce.com/document/woocommerce-rest-api/",
-    "confidence": "High"
+    "auth_evidence": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "access_evidence": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "api_evidence": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 43,
@@ -728,7 +938,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.bigcommerce.com",
-    "confidence": "High"
+    "auth_evidence": "https://developer.bigcommerce.com",
+    "access_evidence": "https://developer.bigcommerce.com",
+    "api_evidence": "https://developer.bigcommerce.com",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 44,
@@ -745,7 +960,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.salesforce.com/docs/commerce",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.salesforce.com/docs/commerce",
+    "access_evidence": "https://developer.salesforce.com/docs/commerce",
+    "api_evidence": "https://developer.salesforce.com/docs/commerce",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 45,
@@ -762,7 +982,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+    "access_evidence": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+    "api_evidence": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 46,
@@ -779,7 +1004,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.squarespace.com",
-    "confidence": "High"
+    "auth_evidence": "https://developers.squarespace.com",
+    "access_evidence": "https://developers.squarespace.com",
+    "api_evidence": "https://developers.squarespace.com",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 47,
@@ -796,7 +1026,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://api-docs.ecwid.com",
-    "confidence": "High"
+    "auth_evidence": "https://api-docs.ecwid.com",
+    "access_evidence": "https://api-docs.ecwid.com",
+    "api_evidence": "https://api-docs.ecwid.com",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 48,
@@ -813,7 +1048,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://gumroad.com/api",
-    "confidence": "High"
+    "auth_evidence": "https://gumroad.com/api",
+    "access_evidence": "https://gumroad.com/api",
+    "api_evidence": "https://gumroad.com/api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 49,
@@ -830,7 +1070,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer-docs.amazon.com/sp-api/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer-docs.amazon.com/sp-api/",
+    "access_evidence": "https://developer-docs.amazon.com/sp-api/",
+    "api_evidence": "https://developer-docs.amazon.com/sp-api/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 50,
@@ -847,7 +1092,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://fanbasis.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://fanbasis.com",
+    "access_evidence": "https://fanbasis.com",
+    "api_evidence": "https://fanbasis.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 51,
@@ -864,7 +1114,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.dataforseo.com/v3/",
-    "confidence": "High"
+    "auth_evidence": "https://docs.dataforseo.com/v3/",
+    "access_evidence": "https://docs.dataforseo.com/v3/",
+    "api_evidence": "https://docs.dataforseo.com/v3/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 52,
@@ -881,7 +1136,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://seranking.com/api",
-    "confidence": "High"
+    "auth_evidence": "https://seranking.com/api",
+    "access_evidence": "https://seranking.com/api",
+    "api_evidence": "https://seranking.com/api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 53,
@@ -898,7 +1158,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://ahrefs.com/api",
-    "confidence": "Medium"
+    "auth_evidence": "https://ahrefs.com/api",
+    "access_evidence": "https://ahrefs.com/api",
+    "api_evidence": "https://ahrefs.com/api",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 54,
@@ -915,7 +1180,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://docs.mrscraper.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://docs.mrscraper.com",
+    "access_evidence": "https://docs.mrscraper.com",
+    "api_evidence": "https://docs.mrscraper.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 55,
@@ -932,7 +1202,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.apify.com/mcp",
-    "confidence": "High"
+    "auth_evidence": "https://docs.apify.com/mcp",
+    "access_evidence": "https://docs.apify.com/mcp",
+    "api_evidence": "https://docs.apify.com/mcp",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 56,
@@ -949,7 +1224,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.firecrawl.dev/",
-    "confidence": "High"
+    "auth_evidence": "https://docs.firecrawl.dev/",
+    "access_evidence": "https://docs.firecrawl.dev/",
+    "api_evidence": "https://docs.firecrawl.dev/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 57,
@@ -966,7 +1246,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://docs.brightdata.com/",
-    "confidence": "Medium"
+    "auth_evidence": "https://docs.brightdata.com/",
+    "access_evidence": "https://docs.brightdata.com/",
+    "api_evidence": "https://docs.brightdata.com/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 58,
@@ -983,7 +1268,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://github.com/sherlock-project/sherlock",
-    "confidence": "Medium"
+    "auth_evidence": "https://github.com/sherlock-project/sherlock",
+    "access_evidence": "https://github.com/sherlock-project/sherlock",
+    "api_evidence": "https://github.com/sherlock-project/sherlock",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 59,
@@ -1000,7 +1290,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://waterfall.io",
-    "confidence": "Medium"
+    "auth_evidence": "https://waterfall.io",
+    "access_evidence": "https://waterfall.io",
+    "api_evidence": "https://waterfall.io",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 60,
@@ -1017,7 +1312,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://clay.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://clay.com",
+    "access_evidence": "https://clay.com",
+    "api_evidence": "https://clay.com",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 61,
@@ -1034,7 +1334,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.github.com/en/rest/authentication",
-    "confidence": "High"
+    "auth_evidence": "https://docs.github.com/en/rest/authentication",
+    "access_evidence": "https://docs.github.com/en/rest/authentication",
+    "api_evidence": "https://docs.github.com/en/rest/authentication",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 62,
@@ -1051,7 +1356,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://vercel.com/docs/rest-api",
-    "confidence": "High"
+    "auth_evidence": "https://vercel.com/docs/rest-api",
+    "access_evidence": "https://vercel.com/docs/rest-api",
+    "api_evidence": "https://vercel.com/docs/rest-api",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 63,
@@ -1068,7 +1378,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.netlify.com/api/get-started/",
-    "confidence": "High"
+    "auth_evidence": "https://docs.netlify.com/api/get-started/",
+    "access_evidence": "https://docs.netlify.com/api/get-started/",
+    "api_evidence": "https://docs.netlify.com/api/get-started/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 64,
@@ -1085,7 +1400,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.cloudflare.com/api/",
-    "confidence": "High"
+    "auth_evidence": "https://developers.cloudflare.com/api/",
+    "access_evidence": "https://developers.cloudflare.com/api/",
+    "api_evidence": "https://developers.cloudflare.com/api/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 65,
@@ -1102,7 +1422,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://supabase.com/docs/guides/api",
-    "confidence": "High"
+    "auth_evidence": "https://supabase.com/docs/guides/api",
+    "access_evidence": "https://supabase.com/docs/guides/api",
+    "api_evidence": "https://supabase.com/docs/guides/api",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 66,
@@ -1119,7 +1444,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://neo4j.com/docs/http-api/current/",
-    "confidence": "High"
+    "auth_evidence": "https://neo4j.com/docs/http-api/current/",
+    "access_evidence": "https://neo4j.com/docs/http-api/current/",
+    "api_evidence": "https://neo4j.com/docs/http-api/current/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 67,
@@ -1136,7 +1466,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/guide",
-    "confidence": "Medium"
+    "auth_evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/guide",
+    "access_evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/guide",
+    "api_evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/guide",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 68,
@@ -1153,7 +1488,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://www.mongodb.com/docs/atlas/api/",
-    "confidence": "Medium"
+    "auth_evidence": "https://www.mongodb.com/docs/atlas/api/",
+    "access_evidence": "https://www.mongodb.com/docs/atlas/api/",
+    "api_evidence": "https://www.mongodb.com/docs/atlas/api/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 69,
@@ -1170,7 +1510,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.datadoghq.com/api/latest/",
-    "confidence": "High"
+    "auth_evidence": "https://docs.datadoghq.com/api/latest/",
+    "access_evidence": "https://docs.datadoghq.com/api/latest/",
+    "api_evidence": "https://docs.datadoghq.com/api/latest/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 70,
@@ -1187,7 +1532,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.sentry.io/api/",
-    "confidence": "High"
+    "auth_evidence": "https://docs.sentry.io/api/",
+    "access_evidence": "https://docs.sentry.io/api/",
+    "api_evidence": "https://docs.sentry.io/api/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 71,
@@ -1204,7 +1554,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.notion.com/reference/intro",
-    "confidence": "High"
+    "auth_evidence": "https://developers.notion.com/reference/intro",
+    "access_evidence": "https://developers.notion.com/reference/intro",
+    "api_evidence": "https://developers.notion.com/reference/intro",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 72,
@@ -1221,7 +1576,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://airtable.com/developers/web/api/authentication",
-    "confidence": "High"
+    "auth_evidence": "https://airtable.com/developers/web/api/authentication",
+    "access_evidence": "https://airtable.com/developers/web/api/authentication",
+    "api_evidence": "https://airtable.com/developers/web/api/authentication",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 73,
@@ -1238,7 +1598,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
-    "confidence": "High"
+    "auth_evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+    "access_evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+    "api_evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 74,
@@ -1255,7 +1620,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.atlassian.com/cloud/jira/rest/v3/intro/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.atlassian.com/cloud/jira/rest/v3/intro/",
+    "access_evidence": "https://developer.atlassian.com/cloud/jira/rest/v3/intro/",
+    "api_evidence": "https://developer.atlassian.com/cloud/jira/rest/v3/intro/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 75,
@@ -1272,7 +1642,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.asana.com/docs/authentication",
-    "confidence": "High"
+    "auth_evidence": "https://developers.asana.com/docs/authentication",
+    "access_evidence": "https://developers.asana.com/docs/authentication",
+    "api_evidence": "https://developers.asana.com/docs/authentication",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 76,
@@ -1289,7 +1664,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.monday.com/api-reference/docs",
-    "confidence": "High"
+    "auth_evidence": "https://developer.monday.com/api-reference/docs",
+    "access_evidence": "https://developer.monday.com/api-reference/docs",
+    "api_evidence": "https://developer.monday.com/api-reference/docs",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 77,
@@ -1306,7 +1686,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.clickup.com/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.clickup.com/",
+    "access_evidence": "https://developer.clickup.com/",
+    "api_evidence": "https://developer.clickup.com/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 78,
@@ -1323,7 +1708,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://coda.io/developers/apis",
-    "confidence": "High"
+    "auth_evidence": "https://coda.io/developers/apis",
+    "access_evidence": "https://coda.io/developers/apis",
+    "api_evidence": "https://coda.io/developers/apis",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 79,
@@ -1340,7 +1730,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://smartsheet.com/developers",
-    "confidence": "High"
+    "auth_evidence": "https://smartsheet.com/developers",
+    "access_evidence": "https://smartsheet.com/developers",
+    "api_evidence": "https://smartsheet.com/developers",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 80,
@@ -1357,7 +1752,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://help.getharvest.com/api-v2/",
-    "confidence": "High"
+    "auth_evidence": "https://help.getharvest.com/api-v2/",
+    "access_evidence": "https://help.getharvest.com/api-v2/",
+    "api_evidence": "https://help.getharvest.com/api-v2/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 81,
@@ -1374,7 +1774,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://docs.stripe.com/api/authentication",
-    "confidence": "High"
+    "auth_evidence": "https://docs.stripe.com/api/authentication",
+    "access_evidence": "https://docs.stripe.com/api/authentication",
+    "api_evidence": "https://docs.stripe.com/api/authentication",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 82,
@@ -1391,7 +1796,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://plaid.com/docs/quickstart/",
-    "confidence": "Medium"
+    "auth_evidence": "https://plaid.com/docs/quickstart/",
+    "access_evidence": "https://plaid.com/docs/quickstart/",
+    "api_evidence": "https://plaid.com/docs/quickstart/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 83,
@@ -1408,7 +1818,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developers.binance.com/docs/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developers.binance.com/docs/",
+    "access_evidence": "https://developers.binance.com/docs/",
+    "api_evidence": "https://developers.binance.com/docs/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 84,
@@ -1425,7 +1840,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://paygent.co/",
-    "confidence": "Medium"
+    "auth_evidence": "https://paygent.co/",
+    "access_evidence": "https://paygent.co/",
+    "api_evidence": "https://paygent.co/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 85,
@@ -1442,7 +1862,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://ipayx.ai/docs",
-    "confidence": "Medium"
+    "auth_evidence": "https://ipayx.ai/docs",
+    "access_evidence": "https://ipayx.ai/docs",
+    "api_evidence": "https://ipayx.ai/docs",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 86,
@@ -1459,7 +1884,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.intuit.com/app/developer/qbo/docs/api",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.intuit.com/app/developer/qbo/docs/api",
+    "access_evidence": "https://developer.intuit.com/app/developer/qbo/docs/api",
+    "api_evidence": "https://developer.intuit.com/app/developer/qbo/docs/api",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 87,
@@ -1476,7 +1906,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developer.xero.com/documentation/api/api-overview/",
-    "confidence": "High"
+    "auth_evidence": "https://developer.xero.com/documentation/api/api-overview/",
+    "access_evidence": "https://developer.xero.com/documentation/api/api-overview/",
+    "api_evidence": "https://developer.xero.com/documentation/api/api-overview/",
+    "mcp_evidence": "",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 88,
@@ -1493,7 +1928,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://developer.brex.com/",
-    "confidence": "Medium"
+    "auth_evidence": "https://developer.brex.com/",
+    "access_evidence": "https://developer.brex.com/",
+    "api_evidence": "https://developer.brex.com/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 89,
@@ -1510,7 +1950,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://docs.ramp.com/developer-api/",
-    "confidence": "Medium"
+    "auth_evidence": "https://docs.ramp.com/developer-api/",
+    "access_evidence": "https://docs.ramp.com/developer-api/",
+    "api_evidence": "https://docs.ramp.com/developer-api/",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 90,
@@ -1527,7 +1972,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://pitchbook.com/products/data",
-    "confidence": "Medium"
+    "auth_evidence": "https://pitchbook.com/products/data",
+    "access_evidence": "https://pitchbook.com/products/data",
+    "api_evidence": "https://pitchbook.com/products/data",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 91,
@@ -1544,7 +1994,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://cloud.google.com/gemini",
-    "confidence": "Medium"
+    "auth_evidence": "https://cloud.google.com/gemini",
+    "access_evidence": "https://cloud.google.com/gemini",
+    "api_evidence": "https://cloud.google.com/gemini",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 92,
@@ -1561,7 +2016,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://otter.diy/docs/mcp",
-    "confidence": "Medium"
+    "auth_evidence": "https://otter.diy/docs/mcp",
+    "access_evidence": "https://otter.diy/docs/mcp",
+    "api_evidence": "https://otter.diy/docs/mcp",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 93,
@@ -1578,7 +2038,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://developers.fathom.ai/mcp-docs",
-    "confidence": "High"
+    "auth_evidence": "https://developers.fathom.ai/mcp-docs",
+    "access_evidence": "https://developers.fathom.ai/mcp-docs",
+    "api_evidence": "https://developers.fathom.ai/mcp-docs",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 94,
@@ -1595,7 +2060,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://consensus.app",
-    "confidence": "Medium"
+    "auth_evidence": "https://consensus.app",
+    "access_evidence": "https://consensus.app",
+    "api_evidence": "https://consensus.app",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 95,
@@ -1612,7 +2082,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://reducto.ai",
-    "confidence": "Medium"
+    "auth_evidence": "https://reducto.ai",
+    "access_evidence": "https://reducto.ai",
+    "api_evidence": "https://reducto.ai",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 96,
@@ -1629,7 +2104,12 @@
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
     "evidence": "https://docs.devin.ai/",
-    "confidence": "Medium"
+    "auth_evidence": "https://docs.devin.ai/",
+    "access_evidence": "https://docs.devin.ai/",
+    "api_evidence": "https://docs.devin.ai/",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 97,
@@ -1646,7 +2126,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://higgsfield.ai/cli",
-    "confidence": "Medium"
+    "auth_evidence": "https://higgsfield.ai/cli",
+    "access_evidence": "https://higgsfield.ai/cli",
+    "api_evidence": "https://higgsfield.ai/cli",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 98,
@@ -1663,7 +2148,12 @@
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
     "evidence": "https://mermaid.ai/docs/ai/mcp-server",
-    "confidence": "High"
+    "auth_evidence": "https://mermaid.ai/docs/ai/mcp-server",
+    "access_evidence": "https://mermaid.ai/docs/ai/mcp-server",
+    "api_evidence": "https://mermaid.ai/docs/ai/mcp-server",
+    "mcp_evidence": "https://docs.composio.dev/toolkits",
+    "confidence": "High",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 99,
@@ -1680,7 +2170,12 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://transcriptapi.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://transcriptapi.com",
+    "access_evidence": "https://transcriptapi.com",
+    "api_evidence": "https://transcriptapi.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   },
   {
     "id": 100,
@@ -1697,6 +2192,11 @@
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
     "evidence": "https://grain.com",
-    "confidence": "Medium"
+    "auth_evidence": "https://grain.com",
+    "access_evidence": "https://grain.com",
+    "api_evidence": "https://grain.com",
+    "mcp_evidence": "",
+    "confidence": "Medium",
+    "last_checked": "2026-11-23"
   }
 ]

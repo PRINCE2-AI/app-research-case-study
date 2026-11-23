@@ -1,0 +1,8 @@
+{
+  "status": "skipped_no_api_key",
+  "sdk_status": "installed",
+  "composio_version": "0.34.0",
+  "live_tool_calls": 0,
+  "checked_at": "2026-11-23T10:21:40.569783+00:00",
+  "reason": "No credentials were supplied, so no paid-account or live MCP test was fabricated."
+}

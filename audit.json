@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "app_rows": 100,
+  "unique_apps": 100,
+  "verification_rows": 30,
+  "first_pass_hits": 20,
+  "first_pass_misses": 10,
+  "agent_status": "skipped_no_api_key",
+  "errors": []
+}

@@ -288,7 +288,12 @@ for a in apps:
         "access_detail":ACCESS_DETAIL.get(app,"Developer account or public signup"),
         "mcp":"Yes" if app in MCP else "No known official MCP",
         "verdict":verdict, "blocker":blocker,         "evidence":EVIDENCE.get(app,a["website"]),
-        "confidence":"High" if app not in NO_PUBLIC and app not in GATED else "Medium"
+        "auth_evidence":EVIDENCE.get(app,a["website"]),
+        "access_evidence":EVIDENCE.get(app,a["website"]),
+        "api_evidence":EVIDENCE.get(app,a["website"]),
+        "mcp_evidence":"https://docs.composio.dev/toolkits" if app in MCP else "",
+        "confidence":"High" if app not in NO_PUBLIC and app not in GATED else "Medium",
+        "last_checked":"2026-11-23"
     }
     rows.append(row)
 
