@@ -102,7 +102,7 @@ const ver=[
 ["Brex","OAuth/partner","Hit","Partner-sales gate retained"],
 ["Mermaid CLI","OAuth token/MCP","Miss","Official Mermaid MCP account gate confirmed"]
 ];
-fetch("research.json").then(r=>{
+fetch("research.json?build=5319a78").then(r=>{
  if(!r.ok) throw new Error("Could not load research.json");
  return r.json();
 }).then(rows=>{
