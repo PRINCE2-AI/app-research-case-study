@@ -98,7 +98,7 @@ function render(){
  const q=document.getElementById("search").value.toLowerCase();
  const c=document.getElementById("category").value;
  const a=document.getElementById("access").value;
- const out=rows.filter(r=>(!c||r.category===c)&&(!a||r.access===a)&&(!q||Object.values(r).join(" ").toLower().includes(q)));
+ const out=rows.filter(r=>(!c||r.category===c)&&(!a||r.access===a)&&(!q||Object.values(r).join(" ").toLowerCase().includes(q)));
  document.getElementById("resultCount").textContent=`${out.length} matching row${out.length===1?"":"s"}`;
  rowsEl.innerHTML=out.map(r=>`<tr><td>${r.id}</td><td><a href="${r.website}" target="_blank">${esc(r.app)}</a></td><td>${esc(r.category)}</td><td>${esc(r.auth)}</td><td><span class="tag ${r.access==="Gated"?"gate":"self"}">${r.access}</span></td><td>${r.surface}</td><td>${r.mcp==="Yes"?"<span class='tag build'>Official MCP</span>":"No known official MCP"}</td><td><strong>${r.verdict}</strong><br><span style="color:#667085">${esc(r.blocker)}</span></td><td><a href="${r.evidence}" target="_blank">Docs</a></td></tr>`).join("");
 }
