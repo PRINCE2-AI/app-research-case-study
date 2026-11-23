@@ -12,10 +12,10 @@
 .card{background:white;border:1px solid var(--line);border-radius:14px;padding:16px}.card b{font-size:28px;display:block}.card span{color:var(--muted)}
 .section{margin-top:18px}.section h2{font-size:21px;margin:0 0 10px}.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:16px}
 .patterns{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.pattern{border-left:3px solid var(--blue);padding:8px 12px}.pattern strong{display:block;font-size:17px}
-.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}.toolbar input,.toolbar select{padding:9px 10px;border:1px solid var(--line);border-radius8px;background:white}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}.toolbar input,.toolbar select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:white}
 .toolbar input{flex:1;min-width:220px}.table-wrap{overflow:auto;max-height:560px}table{border-collapse:collapse;width:100%;font-size:12px}th{position:sticky;top:0;background:#f9fafb;text-align:left;z-index:2}th,td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}td a{color:var(--blue)}
 .tag{display:inline-block;border-radius:999px;padding:2px 7px;white-space:nowrap}.self{background:#ecfdf3;color:var(--green)}.gate{background:#fffaeb;color:var(--amber)}.build{background:#eef4ff;color:var(--blue)}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.step{border:1px solid var(--line);border-radius10px;padding:10px}.step b{color:var(--blue)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.step{border:1px solid var(--line);border-radius:10px;padding:10px}.step b{color:var(--blue)}
 .proof a{display:inline-block;margin:4px 8px 4px 0}.bar{height:8px;border-radius:999px;background:#e5e7eb;margin:6px 0}.bar i{display:block;height:100%;border-radius:999px;background:var(--green)}
 @media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.patterns,.two{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:28px}}
 </style>
@@ -28,19 +28,19 @@
 </header>
 <div class="grid">
 <div class="card"><b id="count">100</b><span>apps researched</span></div>
-<div class="card"><b>69%</b><span>self-serve access</span></div>
-<div class="card"><b>51%</b><span>primary auth: OAuth2</span></div>
-<div class="card"><b>59%</b><span>buildable today</span></div>
+<div class="card"><b id="selfServe">69%</b><span>self-serve access</span></div>
+<div class="card"><b id="oauthCount">49%</b><span>primary auth: OAuth2</span></div>
+<div class="card"><b id="buildableCount">59%</b><span>buildable today</span></div>
 </div>
 
 <section class="section"><h2>Headline patterns</h2><div class="panel patterns">
-<div class="pattern"><strong>OAuth is the default</strong><span>51 apps use OAuth2; another 9 use OAuth alongside API-key or token methods. PAT/Bearer and API-key paths are the next common patterns.</span></div>
+<div class="pattern"><strong>OAuth is the default</strong><span id="oauthPattern">49 apps use OAuth2 as the primary auth label; 13 also use OAuth in a mixed auth label. PAT/Bearer and API-key paths are the next common patterns.</span></div>
 <div class="pattern"><strong>Easy wins are concentrated</strong><span>Developer, productivity, and CRM-style apps offer the highest proportion of documented REST plus self-serve setup. Start with these before regulated or enterprise sales apps.</span></div>
 <div class="pattern"><strong>The blocker is access, not APIs</strong><span>31 apps are gated. 17 also lacked enough public, stable integration coverage in the evidence pass. Human outreach is mainly needed for approvals and partner terms.</span></div>
 </div></section>
 
 <section class="section"><h2>Research matrix</h2><div class="panel">
-<div class="toolbar"><input id="search" placeholder="Search app, category, blocker"><select id="category"><option value="">All categories</option></select><select id="access"><option value="">Any access</option><option>Self-serve</option><option>Gated</option></select></div>
+<div class="toolbar"><input id="search" placeholder="Search app, category, blocker"><select id="category"><option value="">All categories</option></select><select id="access"><option value="">Any access</option><option>Self-serve</option><option>Gated</option></select><span id="resultCount" style="align-self:center;color:#667085"></span></div>
 <div class="table-wrap"><table><thead><tr><th>#</th><th>App</th><th>Category</th><th>Auth</th><th>Access</th><th>API breadth</th><th>MCP</th><th>Verdict</th><th>Evidence</th></tr></thead><tbody id="rows"></tbody></table></div>
 </div></section>
 
@@ -78,16 +78,34 @@ const ver=[
 ["Fathom","OAuth/API + MCP","Hit","Official MCP and meeting API confirmed"],
 ["Consensus","OAuth requested","Miss","Partnership/app-approval status retained as gated"]
 ];
-fetch("research.json").then(r=>r.json()).then(rows=>{
+fetch("research.json").then(r=>{
+ if(!r.ok) throw new Error("Could not load research.json");
+ return r.json();
+}).then(rows=>{
 const cats=[...new Set(rows.map(r=>r.category))].sort();for(const c of cats)category.add(new Option(c,c));
+const pct=n=>Math.round(n/rows.length*100)+"%";
+const oauthRows=rows.filter(r=>r.auth.includes("OAuth"));
+const directOAuth=rows.filter(r=>r.auth==="OAuth2").length;
+const selfServe=rows.filter(r=>r.access==="Self-serve").length;
+const buildable=rows.filter(r=>r.verdict==="Buildable today").length;
+document.getElementById("count").textContent=rows.length;
+document.getElementById("selfServe").textContent=pct(selfServe);
+document.getElementById("oauthCount").textContent=pct(directOAuth);
+document.getElementById("buildableCount").textContent=pct(buildable);
+document.getElementById("oauthPattern").textContent=`${directOAuth} apps use OAuth2 as the primary auth label; ${oauthRows.length-directOAuth} also use OAuth in a mixed auth label. PAT/Bearer and API-key paths are the next common patterns.`;
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function render(){
- const q=search.value.toLowerCase(),c=category.value,a=access.value;
+ const q=document.getElementById("search").value.toLowerCase();
+ const c=document.getElementById("category").value;
+ const a=document.getElementById("access").value;
  const out=rows.filter(r=>(!c||r.category===c)&&(!a||r.access===a)&&(!q||Object.values(r).join(" ").toLower().includes(q)));
+ document.getElementById("resultCount").textContent=`${out.length} matching row${out.length===1?"":"s"}`;
  rowsEl.innerHTML=out.map(r=>`<tr><td>${r.id}</td><td><a href="${r.website}" target="_blank">${esc(r.app)}</a></td><td>${esc(r.category)}</td><td>${esc(r.auth)}</td><td><span class="tag ${r.access==="Gated"?"gate":"self"}">${r.access}</span></td><td>${r.surface}</td><td>${r.mcp==="Yes"?"<span class='tag build'>Official MCP</span>":"No known official MCP"}</td><td><strong>${r.verdict}</strong><br><span style="color:#667085">${esc(r.blocker)}</span></td><td><a href="${r.evidence}" target="_blank">Docs</a></td></tr>`).join("");
 }
 const rowsEl=document.getElementById("rows");document.querySelectorAll("#search,#category,#access").forEach(e=>e.addEventListener("input",render));render();
 document.getElementById("verify").innerHTML=ver.map(v=>`<tr><td><strong>${v[0]}</strong></td><td>${v[1]}</td><td>${v[2]}</td><td>${v[3]}</td></tr>`).join("");
+}).catch(err=>{
+document.getElementById("rows").innerHTML=`<tr><td colspan="9">Data could not load: ${err.message}</td></tr>`;
 });
 </script>
 </body></html>

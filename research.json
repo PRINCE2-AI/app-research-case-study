@@ -11,7 +11,7 @@
     "mcp": "Yes",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://www.salesforce.com",
+    "evidence": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
     "confidence": "Medium"
   },
   {
@@ -26,7 +26,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.hubspot.com",
+    "evidence": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
     "confidence": "High"
   },
   {
@@ -41,7 +41,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.pipedrive.com",
+    "evidence": "https://developers.pipedrive.com/docs/api/v1",
     "confidence": "High"
   },
   {
@@ -56,7 +56,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://attio.com",
+    "evidence": "https://developers.attio.com/",
     "confidence": "High"
   },
   {
@@ -71,7 +71,7 @@
     "mcp": "No known official MCP",
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
-    "evidence": "https://twenty.com",
+    "evidence": "https://twenty.com/developers",
     "confidence": "Medium"
   },
   {
@@ -86,7 +86,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://podio.com",
+    "evidence": "https://developers.podio.com/",
     "confidence": "High"
   },
   {
@@ -101,7 +101,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.zoho.com/crm",
+    "evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
     "confidence": "High"
   },
   {
@@ -116,7 +116,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://close.com",
+    "evidence": "https://help.close.com/docs/developer-api",
     "confidence": "High"
   },
   {
@@ -131,7 +131,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.copper.com",
+    "evidence": "https://developer.copper.com/",
     "confidence": "High"
   },
   {
@@ -161,7 +161,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.zendesk.com",
+    "evidence": "https://developer.zendesk.com/api-reference/",
     "confidence": "High"
   },
   {
@@ -176,7 +176,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.intercom.com",
+    "evidence": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
     "confidence": "High"
   },
   {
@@ -191,7 +191,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://freshdesk.com",
+    "evidence": "https://developers.freshdesk.com/api/",
     "confidence": "High"
   },
   {
@@ -206,7 +206,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://front.com",
+    "evidence": "https://dev.frontapp.com/",
     "confidence": "Medium"
   },
   {
@@ -236,7 +236,7 @@
     "mcp": "No known official MCP",
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
-    "evidence": "https://www.liveagent.com",
+    "evidence": "https://helpdesk.com/api",
     "confidence": "Medium"
   },
   {
@@ -251,7 +251,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://plain.com",
+    "evidence": "https://plain.com/docs",
     "confidence": "Medium"
   },
   {
@@ -266,7 +266,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.helpscout.com",
+    "evidence": "https://developer.helpscout.com/",
     "confidence": "High"
   },
   {
@@ -281,7 +281,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://www.gorgias.com",
+    "evidence": "https://developers.gorgias.com/",
     "confidence": "Medium"
   },
   {
@@ -296,7 +296,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://www.gladly.com",
+    "evidence": "https://developer.gladly.com/",
     "confidence": "Medium"
   },
   {
@@ -311,7 +311,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://slack.com",
+    "evidence": "https://api.slack.com/authentication",
     "confidence": "High"
   },
   {
@@ -326,7 +326,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.twilio.com",
+    "evidence": "https://www.twilio.com/docs/iam",
     "confidence": "High"
   },
   {
@@ -341,7 +341,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://www.zoho.com/cliq",
+    "evidence": "https://www.zoho.com/cliq/help/restapi/",
     "confidence": "High"
   },
   {
@@ -356,7 +356,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://open.larksuite.com",
+    "evidence": "https://open.larksuite.com/document/",
     "confidence": "High"
   },
   {
@@ -371,7 +371,7 @@
     "mcp": "No known official MCP",
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
-    "evidence": "https://pumble.com",
+    "evidence": "https://pumble.com/help",
     "confidence": "Medium"
   },
   {
@@ -386,7 +386,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://discord.com",
+    "evidence": "https://discord.com/developers/docs/topics/oauth2",
     "confidence": "High"
   },
   {
@@ -401,7 +401,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://core.telegram.org",
+    "evidence": "https://core.telegram.org/bots/api",
     "confidence": "High"
   },
   {
@@ -416,7 +416,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.facebook.com/docs/whatsapp",
+    "evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
     "confidence": "High"
   },
   {
@@ -431,7 +431,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://aircall.io",
+    "evidence": "https://developer.aircall.io/",
     "confidence": "Medium"
   },
   {
@@ -446,7 +446,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developer.vonage.com",
+    "evidence": "https://developer.vonage.com/",
     "confidence": "High"
   },
   {
@@ -461,7 +461,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://developers.google.com/google-ads",
+    "evidence": "https://developers.google.com/google-ads/api/docs/start",
     "confidence": "Medium"
   },
   {
@@ -491,7 +491,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://learn.microsoft.com/linkedin/marketing",
+    "evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
     "confidence": "Medium"
   },
   {
@@ -506,7 +506,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://highlevel.stoplight.io",
+    "evidence": "https://highlevel.stoplight.io/",
     "confidence": "High"
   },
   {
@@ -521,7 +521,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://mailchimp.com/developer",
+    "evidence": "https://mailchimp.com/developer/marketing/api/",
     "confidence": "High"
   },
   {
@@ -536,7 +536,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.klaviyo.com",
+    "evidence": "https://developers.klaviyo.com/en/reference/api_overview",
     "confidence": "High"
   },
   {
@@ -566,7 +566,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.pinterest.com",
+    "evidence": "https://developers.pinterest.com/docs/api/v5/",
     "confidence": "High"
   },
   {
@@ -596,7 +596,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://sendgrid.com",
+    "evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
     "confidence": "High"
   },
   {
@@ -611,7 +611,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://shopify.dev",
+    "evidence": "https://shopify.dev/docs/apps/build/authentication-authorization",
     "confidence": "High"
   },
   {
@@ -626,7 +626,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://woocommerce.com/document/woocommerce-rest-api",
+    "evidence": "https://woocommerce.com/document/woocommerce-rest-api/",
     "confidence": "High"
   },
   {
@@ -671,7 +671,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developer.adobe.com/commerce",
+    "evidence": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
     "confidence": "High"
   },
   {
@@ -731,7 +731,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://developer-docs.amazon.com/sp-api",
+    "evidence": "https://developer-docs.amazon.com/sp-api/",
     "confidence": "Medium"
   },
   {
@@ -761,7 +761,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.dataforseo.com",
+    "evidence": "https://docs.dataforseo.com/v3/",
     "confidence": "High"
   },
   {
@@ -821,7 +821,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.apify.com",
+    "evidence": "https://docs.apify.com/mcp",
     "confidence": "High"
   },
   {
@@ -836,7 +836,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://firecrawl.dev",
+    "evidence": "https://docs.firecrawl.dev/",
     "confidence": "High"
   },
   {
@@ -851,7 +851,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://brightdata.com",
+    "evidence": "https://docs.brightdata.com/",
     "confidence": "Medium"
   },
   {
@@ -911,7 +911,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.github.com/rest",
+    "evidence": "https://docs.github.com/en/rest/authentication",
     "confidence": "High"
   },
   {
@@ -941,7 +941,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.netlify.com/api",
+    "evidence": "https://docs.netlify.com/api/get-started/",
     "confidence": "High"
   },
   {
@@ -956,7 +956,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.cloudflare.com/api",
+    "evidence": "https://developers.cloudflare.com/api/",
     "confidence": "High"
   },
   {
@@ -971,7 +971,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://supabase.com/docs",
+    "evidence": "https://supabase.com/docs/guides/api",
     "confidence": "High"
   },
   {
@@ -986,7 +986,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://neo4j.com/docs/api",
+    "evidence": "https://neo4j.com/docs/http-api/current/",
     "confidence": "High"
   },
   {
@@ -1001,7 +1001,7 @@
     "mcp": "Yes",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://docs.snowflake.com",
+    "evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/guide",
     "confidence": "Medium"
   },
   {
@@ -1016,7 +1016,7 @@
     "mcp": "Yes",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://mongodb.com/docs/atlas/api",
+    "evidence": "https://www.mongodb.com/docs/atlas/api/",
     "confidence": "Medium"
   },
   {
@@ -1031,7 +1031,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.datadoghq.com/api",
+    "evidence": "https://docs.datadoghq.com/api/latest/",
     "confidence": "High"
   },
   {
@@ -1046,7 +1046,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://docs.sentry.io/api",
+    "evidence": "https://docs.sentry.io/api/",
     "confidence": "High"
   },
   {
@@ -1061,7 +1061,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.notion.com",
+    "evidence": "https://developers.notion.com/reference/intro",
     "confidence": "High"
   },
   {
@@ -1076,7 +1076,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://airtable.com/developers",
+    "evidence": "https://airtable.com/developers/web/api/authentication",
     "confidence": "High"
   },
   {
@@ -1091,7 +1091,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.linear.app",
+    "evidence": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
     "confidence": "High"
   },
   {
@@ -1106,7 +1106,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developer.atlassian.com",
+    "evidence": "https://developer.atlassian.com/cloud/jira/rest/v3/intro/",
     "confidence": "High"
   },
   {
@@ -1121,7 +1121,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developers.asana.com",
+    "evidence": "https://developers.asana.com/docs/authentication",
     "confidence": "High"
   },
   {
@@ -1136,7 +1136,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developer.monday.com",
+    "evidence": "https://developer.monday.com/api-reference/docs",
     "confidence": "High"
   },
   {
@@ -1151,7 +1151,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://clickup.com/api",
+    "evidence": "https://developer.clickup.com/",
     "confidence": "High"
   },
   {
@@ -1166,7 +1166,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://coda.io/developers",
+    "evidence": "https://coda.io/developers/apis",
     "confidence": "High"
   },
   {
@@ -1196,7 +1196,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://help.getharvest.com/api-v2",
+    "evidence": "https://help.getharvest.com/api-v2/",
     "confidence": "High"
   },
   {
@@ -1211,7 +1211,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://stripe.com/docs/api",
+    "evidence": "https://docs.stripe.com/api/authentication",
     "confidence": "High"
   },
   {
@@ -1226,7 +1226,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://plaid.com/docs",
+    "evidence": "https://plaid.com/docs/quickstart/",
     "confidence": "Medium"
   },
   {
@@ -1241,7 +1241,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://binance-docs.github.io",
+    "evidence": "https://developers.binance.com/docs/",
     "confidence": "Medium"
   },
   {
@@ -1256,7 +1256,7 @@
     "mcp": "No known official MCP",
     "verdict": "Partial / gated",
     "blocker": "No mature public REST surface or endpoint access",
-    "evidence": "https://paygent.co",
+    "evidence": "https://paygent.co/",
     "confidence": "Medium"
   },
   {
@@ -1286,7 +1286,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://developer.intuit.com",
+    "evidence": "https://developer.intuit.com/app/developer/qbo/docs/api",
     "confidence": "Medium"
   },
   {
@@ -1301,7 +1301,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://developer.xero.com",
+    "evidence": "https://developer.xero.com/documentation/api/api-overview/",
     "confidence": "High"
   },
   {
@@ -1316,7 +1316,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://developer.brex.com",
+    "evidence": "https://developer.brex.com/",
     "confidence": "Medium"
   },
   {
@@ -1331,7 +1331,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://docs.ramp.com",
+    "evidence": "https://docs.ramp.com/developer-api/",
     "confidence": "Medium"
   },
   {
@@ -1346,7 +1346,7 @@
     "mcp": "No known official MCP",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://pitchbook.com",
+    "evidence": "https://pitchbook.com/products/data",
     "confidence": "Medium"
   },
   {
@@ -1376,7 +1376,7 @@
     "mcp": "Yes",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://help.otter.ai",
+    "evidence": "https://otter.diy/docs/mcp",
     "confidence": "Medium"
   },
   {
@@ -1391,7 +1391,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://fathom.video",
+    "evidence": "https://developers.fathom.ai/mcp-docs",
     "confidence": "High"
   },
   {
@@ -1436,7 +1436,7 @@
     "mcp": "Yes",
     "verdict": "Buildable with conditions",
     "blocker": "Paid plan, approval, or partnership gate",
-    "evidence": "https://docs.devin.ai",
+    "evidence": "https://docs.devin.ai/",
     "confidence": "Medium"
   },
   {
@@ -1466,7 +1466,7 @@
     "mcp": "Yes",
     "verdict": "Buildable today",
     "blocker": "No major public-API blocker identified",
-    "evidence": "https://github.com/mermaid-js/mermaid-cli",
+    "evidence": "https://mermaid.ai/docs/ai/mcp-server",
     "confidence": "High"
   },
   {

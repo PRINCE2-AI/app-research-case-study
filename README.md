@@ -22,6 +22,8 @@ Open `http://localhost:8080/index.html`.
 
 `research.py` is the reproducible classification pipeline. It normalizes the app set and classifies auth, access, API breadth, known MCP support, buildability and evidence. Official docs are used to correct the script in a verification pass. No paid app accounts or credentials are required.
 
+The pipeline is designed for agent-assisted execution: app discovery and classification are deterministic and rerunnable, while uncertain auth, gate, and MCP claims are retained for human/documentation verification rather than presented as confirmed facts.
+
 ## Verification
 
 The page reports a 20-app documentation spot-check and distinguishes the first pass from the corrected pass. It also explicitly labels categories and app records where public evidence was missing or an approval/paid-plan gate is the main finding.
